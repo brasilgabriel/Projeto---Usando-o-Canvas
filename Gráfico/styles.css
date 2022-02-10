@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(176, 217, 253);
+}
+
+div {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+}
+
+div canvas {
+    background-color: white;
+    box-shadow: 0.7rem 0.4rem 2rem rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+}
